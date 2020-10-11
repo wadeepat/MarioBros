@@ -47,12 +47,12 @@ public class PlayScreen implements Screen {
         world = new World(new Vector2(0,0),true);
         b2dr = new Box2DDebugRenderer();
 
-//        BodyDef bdef = new BodyDef();
-//        PolygonShape shape = new PolygonShape();
-//        FixtureDef fdef = new FixtureDef();
-//        Body body;
-//
-//        for(MapObject object : map.getLayers().get(2).getObjects());
+        BodyDef bdef = new BodyDef();
+        PolygonShape shape = new PolygonShape();
+        FixtureDef fdef = new FixtureDef();
+        Body body;
+
+        for(MapObject object : map.getLayers().get(2).getObjects());
     }
     public  void handleInput(float dt){
         if(Gdx.input.isTouched()) camera.position.y += 100*dt;
