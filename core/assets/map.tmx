@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="11">
+ <tileset firstgid="1" source="../../Downloads/Building.tsx"/>
+ <tileset firstgid="1217" source="../../Downloads/blue.tsx"/>
+ <tileset firstgid="1413" source="../../Downloads/window.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0T0KwkAQhuHJ3wH8vYN3yA0UUllGIY1ewEYLK1FbbRTTxCJNovEGejHBT1RMNivIZhAUiwc2w/DCZl2LyP37aRoR6VBSVIYKPXtVnGtQV9SE1gd6bUUd6KZ6DZNobBB5lNWDPuXnV6Fx8/iemvneWcsaYm9E2dlcshdo7/UmhlrPZu45zL2i94307+oVfQ+xV/Q9ZPddYG8pWMFamPnCdwBbQ/7/QkEEsTBLZHsv3oOrZzP3HOaex9wbMPdmOPtgKYphl+ptmHt7nBM4KDrC6d67ANu2NVw=
+  </data>
+ </layer>
+ <objectgroup id="2" name="window" visible="0">
+  <object id="1" x="65.5" y="193" width="8" height="8.5"/>
+  <object id="2" x="66" y="191.5" width="29.5" height="48.5"/>
+  <object id="3" x="144" y="192" width="32" height="48"/>
+  <object id="4" x="224" y="192" width="32" height="48"/>
+  <object id="5" x="64" y="272" width="32" height="48"/>
+  <object id="6" x="144" y="272" width="32" height="48"/>
+  <object id="7" x="224" y="272" width="32" height="48"/>
+  <object id="8" x="64" y="352" width="32" height="48"/>
+  <object id="9" x="144" y="352" width="32" height="48"/>
+  <object id="10" x="224" y="352" width="32" height="48"/>
+ </objectgroup>
+ <layer id="3" name="Tile Layer 2" width="20" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBfQysrA0MZKnhg20A5U08FKnhg20AlU08VKnthQBKPxMbjAaHyMAnoCALTgHaQ=
+  </data>
+ </layer>
+</map>
